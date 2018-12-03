@@ -21,3 +21,6 @@ to avoid loss of data on main scenes
 —— 
 if you are working on your own scenes it should be fine 
 for a good work flow, add your own dummy scene with your name on it instead of working directly in the main scene, once done and it works adapt it into main scenes ( dev branch ) and go to step 1
+
+---
+please remember to pull the latest from the dev branch before starting
