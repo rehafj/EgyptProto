@@ -12,7 +12,7 @@ public class LocationTracking : MonoBehaviour {
     Transform[] transforms;
     GameObject plr, image;
     Image mapImage;
-    float speed = 2;
+    public float speed = 2;
     public Sprite[] sprites = new Sprite[5];
 
     bool CanMove = false;
