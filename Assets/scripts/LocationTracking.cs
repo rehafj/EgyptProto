@@ -28,7 +28,7 @@ public class LocationTracking : MonoBehaviour {
         // set up transfroms 
         for (int i = 0; i < transforms.Length; i++ ){
             transforms[i] = gameObject.transform.GetChild(i);
-            Debug.Log(transforms[i].position);
+            //Debug.Log(transforms[i].position);
 
         }
 
