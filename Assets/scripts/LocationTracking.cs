@@ -28,23 +28,24 @@ public class LocationTracking : MonoBehaviour {
         // set up transfroms 
         for (int i = 0; i < transforms.Length; i++ ){
             transforms[i] = gameObject.transform.GetChild(i);
-
-//            Debug.Log(transforms[i].position);
-
-        }
+  }
 
 
 
     }
 
-    public void  MoveToNext(){ // sets cond to move to next location ( player and cavas ) 
-        currentLocation++;
-        if(currentLocation >= transforms.Length ){ //reached the last postion 
-            currentLocation = 0;
+    public void  MoveToNext(){ // sets cond to move to next location ( player and cavas )
+        if(Swapper.isRubblePeriod == true){
+            currentLocation++;
+            if (currentLocation >= transforms.Length)
+            { //reached the last postion 
+                currentLocation = 0;
+            }
+            CanMove = true; // to move player to next postion 
+                            //to change canvas image to next one 
+            changeImage();
+
         }
-        CanMove = true; // to move player to next postion 
-                        //to change canvas image to next one 
-        changeImage();
 
     }
 
