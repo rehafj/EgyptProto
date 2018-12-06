@@ -62,7 +62,7 @@ public class LocationTracking : MonoBehaviour {
         if(CanMove){ // if I can move, move me to the next postion 
             plr.transform.position = Vector3.MoveTowards(plr.transform.position, transforms[currentLocation].position, speed * Time.deltaTime);
             float dist = Vector3.Distance(plr.transform.position, transforms[currentLocation].position);
-            print("Distance tonext object  " + dist);
+            //print("Distance tonext object  " + dist);
             if (dist >= 0 &&  dist <3){
                 //stop the player 
                 CanMove = false;
