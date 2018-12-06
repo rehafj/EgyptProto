@@ -6,21 +6,21 @@ public class PopupCreator : MonoBehaviour {
 
     public DataFields dataFields;
     public GameObject windowPrefab;
-    GameObject popup = null;
+    public List<GameObject> positionMarkers;
+
 
     public void OpenPopup(){
         print("Click");
-        if(popup == null){
-            popup = Instantiate(windowPrefab);
-            GameObject plr = GameObject.FindGameObjectWithTag("Player");
-            print(plr.transform.position);
-            print(transform.position);
-            popup.transform.position = (transform.position + plr.transform.position)/2;
-        }
+        GameObject plr = GameObject.FindGameObjectWithTag("Player");
+        plr.GetComponent<PopupManager>().addPopups(positionMarkers, dataFields);
     }	
 
 }
 
+[System.Serializable]
 public class DataFields{
     public string name = "AHHHHHHH";
+    public string description = "OH NOES! MORE TEXT?";
+    public int uncertaintyLevel = 0; //use 1 to 5, 1 being most certain, 5 being least (0 being unset)
+    
 }

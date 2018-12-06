@@ -53,7 +53,6 @@ public class Swapper : MonoBehaviour {
 		
         if(Input.GetKeyDown(KeyCode.A)){
             changeStates();
-            isRubblePeriod = !isRubblePeriod;
 
         }
 
@@ -79,7 +78,7 @@ public class Swapper : MonoBehaviour {
            
         }
         //set up - logic error from inside - quick fix 
-        //isRubblePeriod = !isRubblePeriod; //whatever it is it is the oppista now
+        isRubblePeriod = !isRubblePeriod;
    
 
         /// for methods quicl 

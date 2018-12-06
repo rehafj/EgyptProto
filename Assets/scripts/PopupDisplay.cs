@@ -5,12 +5,21 @@ using UnityEngine.UI;
 
 public class PopupDisplay : MonoBehaviour {
 
-    public GameObject nameTextObject;
+    public GameObject titleTextObject;
+    public GameObject descriptionTextObject;
+    public GameObject owner;
+    public DataFields data;
 
 	// Use this for initialization
 	void Start () {
-        Text nameText = nameTextObject.GetComponent<Text>();
-        nameText.text = "HEY SOME STUFF!";
+        Text titleText = titleTextObject.GetComponent<Text>();
+        titleText.text = data.name;
+        Text descText = descriptionTextObject.GetComponent<Text>();
+        descText.text = data.description;
 	}
-	
+
+    public void ClosePopup(){
+        GameObject plr = GameObject.FindGameObjectWithTag("Player");
+        plr.GetComponent<PopupManager>().closePopups();
+    }
 }

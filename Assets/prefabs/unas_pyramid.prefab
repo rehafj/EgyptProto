@@ -21,6 +21,9 @@ GameObject:
   - component: {fileID: 4549330232202760}
   - component: {fileID: 33201704939248494}
   - component: {fileID: 23820451336238628}
+  - component: {fileID: 64631825292416490}
+  - component: {fileID: 114975180489115016}
+  - component: {fileID: 114744535528103232}
   m_Layer: 0
   m_Name: Mesh Front Door
   m_TagString: Untagged
@@ -89,6 +92,21 @@ GameObject:
   - component: {fileID: 23896295795534816}
   m_Layer: 0
   m_Name: Mesh Courtyard Door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1556703497476544
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4089453064182556}
+  m_Layer: 0
+  m_Name: PositionMarker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -196,6 +214,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &4089453064182556
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1556703497476544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4452, y: 0.0283, z: -0.2779}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4549330232202760}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4445752804164016
 Transform:
   m_ObjectHideFlags: 1
@@ -207,7 +238,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 4496964531492720}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4496964531492720
 Transform:
@@ -216,7 +247,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1202833808015578}
   m_LocalRotation: {x: -0, y: -0.7058615, z: -0, w: 0.70834994}
-  m_LocalPosition: {x: 149.4, y: 3.8999999, z: 295.9}
+  m_LocalPosition: {x: 149.4, y: -0.3, z: 295.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4585415752962466}
@@ -226,9 +257,9 @@ Transform:
   - {fileID: 4926165907897760}
   - {fileID: 4873077583965436}
   - {fileID: 4824004652485132}
-  - {fileID: 4601222754573730}
   - {fileID: 4807738496668866}
   - {fileID: 4445752804164016}
+  - {fileID: 4601222754573730}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -89.798004, z: 0}
@@ -241,7 +272,8 @@ Transform:
   m_LocalRotation: {x: 0.000000081460335, y: 0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
-  m_Children: []
+  m_Children:
+  - {fileID: 4089453064182556}
   m_Father: {fileID: 4496964531492720}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -269,7 +301,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 4496964531492720}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4807738496668866
 Transform:
@@ -282,7 +314,7 @@ Transform:
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 4496964531492720}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4824004652485132
 Transform:
@@ -769,3 +801,67 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1262773206557218}
   m_Mesh: {fileID: 4300006, guid: d8859fcde355348e2a11ec584f15f653, type: 3}
+--- !u!64 &64631825292416490
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1052328173847208}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300004, guid: d8859fcde355348e2a11ec584f15f653, type: 3}
+--- !u!114 &114744535528103232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1052328173847208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7acc1f71b8641db418c7286ba4e89f20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataFields:
+    name: 'Front Temple Door '
+    description: 'I made the door to the front of the temple 4m high, as that corresponds
+      with the size of the causeway. '
+    uncertaintyLevel: 2
+  windowPrefab: {fileID: 1490200918430544, guid: a27dcbf5097bb3e43a46e9671028b6bc,
+    type: 2}
+  positionMarkers:
+  - {fileID: 1556703497476544}
+--- !u!114 &114975180489115016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1052328173847208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114744535528103232}
+          m_MethodName: OpenPopup
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
