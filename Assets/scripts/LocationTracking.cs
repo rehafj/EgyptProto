@@ -9,6 +9,7 @@ public class LocationTracking : MonoBehaviour {
 
     //done poorly but for now... > move player actions and UI events  into  own script later 
     public int currentLocation = 0;
+    public int numLocations;
     Transform[] transforms;
     GameObject plr, image;
     Image mapImage;
@@ -22,15 +23,15 @@ public class LocationTracking : MonoBehaviour {
         image = GameObject.FindGameObjectWithTag("Map");
         mapImage = image.GetComponent<Image>();
         transforms = new Transform[gameObject.transform.childCount]; // get the size of transforms ( map o=pos )
-     
+        numLocations = transforms.Length;
 
 
         // set up transfroms 
         for (int i = 0; i < transforms.Length; i++ ){
             transforms[i] = gameObject.transform.GetChild(i);
-  }
+        }
 
-
+        plr.transform.position = transforms[currentLocation].position;
 
     }
 
@@ -74,6 +75,4 @@ public class LocationTracking : MonoBehaviour {
     Transform returnNextLoc(){ // for refactoring purp
         return transforms[currentLocation];
     }
-
-
 }

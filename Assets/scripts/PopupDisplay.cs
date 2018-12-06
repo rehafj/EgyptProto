@@ -7,7 +7,6 @@ public class PopupDisplay : MonoBehaviour {
 
     public GameObject titleTextObject;
     public GameObject descriptionTextObject;
-    public GameObject owner;
     public DataFields data;
 
 	// Use this for initialization

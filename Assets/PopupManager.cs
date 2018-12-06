@@ -7,6 +7,7 @@ public class PopupManager : MonoBehaviour {
     List<GameObject> openPopups;
     public GameObject windowPrefab;
 
+    public Camera mainCamera;
     public Swapper swapper;
 
     private void Start() {
@@ -22,6 +23,7 @@ public class PopupManager : MonoBehaviour {
             }
 
             //add new ones
+
             foreach(GameObject marker in positionMarkers){
                 GameObject popup = Instantiate(windowPrefab);
 

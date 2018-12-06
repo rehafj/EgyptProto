@@ -13,7 +13,9 @@ public class Swapper : MonoBehaviour {
     public List<Material> objectsReconstructed;
     public List<Material> currentMaterials;
 
-    public Material white; 
+    public Material white;
+
+    public LocationTracking lt;
 
     // Use this for initialization
     void Start () {
@@ -54,6 +56,11 @@ public class Swapper : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.A)){
             changeStates();
 
+        }
+
+        if( lt.currentLocation == lt.numLocations-1 &&  //if in last location
+            ((Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began) || Input.GetMouseButtonDown(0))){ //and clicking
+            changeStates();
         }
 
     }
