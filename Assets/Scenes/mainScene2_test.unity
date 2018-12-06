@@ -1426,7 +1426,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 4e4a2cda9b2b84c63890952c98f7bf8a, type: 2}
+  - {fileID: 2100000, guid: 317bba1edb2164aa4878fabe1a32ecd5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1713,6 +1713,56 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114897307700685200, guid: 1d11a70196936475fbbb3fcfb1c2fc39,
+        type: 2}
+      propertyPath: m_Text
+      value: "Unas \nOld Kingdom"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114897307700685200, guid: 1d11a70196936475fbbb3fcfb1c2fc39,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114897307700685200, guid: 1d11a70196936475fbbb3fcfb1c2fc39,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114897307700685200, guid: 1d11a70196936475fbbb3fcfb1c2fc39,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114897307700685200, guid: 1d11a70196936475fbbb3fcfb1c2fc39,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114897307700685200, guid: 1d11a70196936475fbbb3fcfb1c2fc39,
+        type: 2}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114067405385812520, guid: 1d11a70196936475fbbb3fcfb1c2fc39,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114067405385812520, guid: 1d11a70196936475fbbb3fcfb1c2fc39,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114067405385812520, guid: 1d11a70196936475fbbb3fcfb1c2fc39,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114067405385812520, guid: 1d11a70196936475fbbb3fcfb1c2fc39,
+        type: 2}
+      propertyPath: m_Text
+      value: 'monument #3504 '
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d11a70196936475fbbb3fcfb1c2fc39, type: 2}
