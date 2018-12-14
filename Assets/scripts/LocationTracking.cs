@@ -17,7 +17,7 @@ public class LocationTracking : MonoBehaviour {
     public Sprite[] sprites = new Sprite[5];
 
 
-    public GameObject ClickSound;
+    GameObject ClickSound;
     bool CanMove = false;
 	// Use this for initialization
 	void Start () {
@@ -26,7 +26,7 @@ public class LocationTracking : MonoBehaviour {
         mapImage = image.GetComponent<Image>();
         transforms = new Transform[gameObject.transform.childCount]; // get the size of transforms ( map o=pos )
         numLocations = transforms.Length;
-
+        ClickSound = GameObject.FindGameObjectWithTag("ClickSound");
 
         // set up transfroms 
         for (int i = 0; i < transforms.Length; i++ ){
