@@ -24,3 +24,10 @@ for a good work flow, add your own dummy scene with your name on it instead of w
 
 ---
 please remember to pull the latest from the dev branch before starting
+
+
+
+<img src="https://github.com/rj-90/EgyptProto/blob/master/images/1.gif" width="500">
+
+
+
