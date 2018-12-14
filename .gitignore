@@ -34,3 +34,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/GoogleVR/Plugins/x86_64/audioplugingvrunity.dll
+Assets/SoundStuffs/ResonanceAudio/Plugins/x86_64/audiopluginresonanceaudio.dll
