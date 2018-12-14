@@ -1,13 +1,19 @@
+# project overview 
 This is a class project for CM290A class, a data visluzation class. 
 In this project we visualize uncertainty by using the Unas pyramid as a model, additional information is located in the write-ups and slides. 
 
 
+![alt text](https://github.com/rj-90/EgyptProto/blob/master/images/1.gif " overview")
 
-Team members: 
-Rehaf Aljammaz @rj-90
-Beth Oliver @bluestar514
-Abdul Jawad @jawadefaj
-Carinne Knight @epicknight
+
+## Team members: 
+Rehaf Aljammaz 
+
+Beth Oliver
+
+Abdul Jawad
+
+Carinne Knight 
 
 Supervised by: 
 Angus Forbes
