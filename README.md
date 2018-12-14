@@ -23,4 +23,4 @@ To Access the visualization please download unity
 
 Once downloaded, access the project through the folder 'project2 visualization' set as the root in unity. 
 
-<img src="https://github.com/rj-90/EgyptProto/blob/master/images/1.gif" > 
+ <img src="https://github.com/rj-90/EgyptProto/blob/master/images/1.gif" width="100%"> 
