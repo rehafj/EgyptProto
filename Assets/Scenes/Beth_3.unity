@@ -503,6 +503,161 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114139626037242896, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.description
+      value: 'Interior spaces were not a priority for the model, so interior doors
+        and spaces were often highly simplified. The Labrousse and Moussa axonometric
+        drawing of the pyramid temple was used for general appearance and materials/textures. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114139626037242896, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.name
+      value: Outer Temple
+      objectReference: {fileID: 0}
+    - target: {fileID: 114139626037242896, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.uncertaintyLevel
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114512806137659710, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.uncertaintyLevel
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114512806137659710, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.name
+      value: Secondary Pyramid Wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 114512806137659710, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.description
+      value: ' '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114422492425314864, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.name
+      value: 'Unas Pyramid '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114422492425314864, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.description
+      value: "The Unas pyramid form (in concert with all the Dynasty 4-6 pyramids
+        in the model) alters to a deflating \u2018ruin\u2019 at the time-slide to
+        Dynasty 18 (1548 BCE), approximately 1000 years after its construction in
+        Dynasty 5. This does not correspond with a single destruction event, but represents
+        a general marker to the reader that many of the stone monuments of the Old
+        Kingdom may have been naturally deflating or intentionally reused/stone repurposed
+        during the New Kingdom.8 In Dynasty 26, deep shaft tombs were cut into the
+        area of the memorial temple of Unas. By this point, Unas\u2019 memorial temple
+        may have been in ruins, and in the model the walls and interior of the memorial
+        temple disappear in Dynasty 26, in order to make room for these new constructions.
+        In reality, parts of the floor, lower walls, and bases of columns must have
+        remained, as these were found in situ during excavations. How the new Dynasty
+        26 tombs were functionally integrated into the ruins of the memorial temple
+        remains unclear. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 114422492425314864, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.uncertaintyLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114763597246468968, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.name
+      value: Central Courtyard
+      objectReference: {fileID: 0}
+    - target: {fileID: 114763597246468968, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.description
+      value: 'The central open courtyard had 18 pink granite columns (many later reused,
+        extant examples are in the Louvre and British Museums, the outer temple courtyard
+        was reconstructed using these column and architrave heights, and the surrounding
+        building corresponds with those heights in the central nave, with building
+        ceilings at approximately 7m, see Labrousse et al. for reconstruction drawing. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 114763597246468968, guid: 6d239fcbf0c8eea46a1a240ae93b736d,
+        type: 2}
+      propertyPath: dataFields.uncertaintyLevel
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100201578567040, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.0246
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100201578567040, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0.7412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100201578567040, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.6663
+      objectReference: {fileID: 0}
+    - target: {fileID: 4315352003143452, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.1028
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955135480338114, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.0427
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614219960107674, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614219960107674, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 7.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 4614219960107674, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 4248460397160098, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.0173
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089453064182556, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.5045
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089453064182556, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.3239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4089453064182556, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.0263
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971727155778298, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 9.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971727155778298, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 6.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4971727155778298, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4955135480338114, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.0249
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268536144272612, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -1.0459
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268536144272612, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.3502
+      objectReference: {fileID: 0}
+    - target: {fileID: 4268536144272612, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.0253
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d239fcbf0c8eea46a1a240ae93b736d, type: 2}
   m_IsPrefabAsset: 0
