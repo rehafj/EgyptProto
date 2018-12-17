@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- Pano2VR project file  -->
+<pano2vrconfig>
+  <panorama>
+    <input>
+      <patch/>
+      <type>auto</type>
+      <filename>equi02.tif</filename>
+    </input>
+    <viewingparameter>
+      <pan/>
+      <tilt/>
+      <fov/>
+    </viewingparameter>
+    <userdata>
+      <datetime>2018:12:10 11:08:21</datetime>
+    </userdata>
+    <hotspots/>
+    <output>
+      <thumb>
+        <html>
+          <enabled>0</enabled>
+          <filename>output/equi02.html</filename>
+          <template>normal.ggt</template>
+          <values>
+            <value id="bgcolor">#ffffff</value>
+            <value id="showuserdata">true</value>
+            <value id="tablebgcolor">#dddddd</value>
+            <value id="tablebordercolor">#777777</value>
+            <value id="tabletextcolor">#000000</value>
+            <value id="textcolor">#000000</value>
+          </values>
+        </html>
+        <facequality/>
+        <filename>SkyBox_Draft02.png</filename>
+        <backgroundColor>#000000,0</backgroundColor>
+        <nooversampling>0</nooversampling>
+        <type>cubeface</type>
+        <quality>90</quality>
+        <progressivejpeg>0</progressivejpeg>
+        <width>1200</width>
+        <height>1200</height>
+        <defaultview>1</defaultview>
+        <pan>0</pan>
+        <tilt>0</tilt>
+        <roll>0</roll>
+        <fov>70</fov>
+        <cubefacenaming>_5</cubefacenaming>
+      </thumb>
+    </output>
+    <sounds/>
+  </panorama>
+</pano2vrconfig>
