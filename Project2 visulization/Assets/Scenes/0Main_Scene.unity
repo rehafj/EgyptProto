@@ -359,6 +359,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &639543762 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 20475710780108244, guid: 53caaf15cba6066478925f567ed056a1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1228490316}
 --- !u!1 &771746412
 GameObject:
   m_ObjectHideFlags: 0
@@ -5269,6 +5274,16 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: MoveToNext
       objectReference: {fileID: 0}
+    - target: {fileID: 114058048800319572, guid: 53caaf15cba6066478925f567ed056a1,
+        type: 2}
+      propertyPath: swapper
+      value: 
+      objectReference: {fileID: 1961687079}
+    - target: {fileID: 114058048800319572, guid: 53caaf15cba6066478925f567ed056a1,
+        type: 2}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 639543762}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53caaf15cba6066478925f567ed056a1, type: 2}
   m_IsPrefabAsset: 0
@@ -10253,7 +10268,7 @@ MonoBehaviour:
   - {fileID: 1555333848}
   objectsReconstructed: []
   currentMaterials: []
-  white: {fileID: 0}
+  white: {fileID: 2100000, guid: 1320f2824b84a4697a067576bbf55113, type: 2}
   lt: {fileID: 989611201}
 --- !u!4 &1961687080
 Transform:
