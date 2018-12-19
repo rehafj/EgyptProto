@@ -20,6 +20,7 @@ Elaine Sullivan
 ### additional instructions 
 To Access the visualization please download unity 
  2018 v2.11f1 
+The final scene is the 0Main_Scene. While running the project click on the screen to see uncertainty. Red means most uncertain to blue least uncertain. 
 
 Once downloaded, access the project through the folder 'project2 visualization' set as the root in unity. 
 
